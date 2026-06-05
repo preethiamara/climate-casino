@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Climate Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Climate Casino</h1>
+
+<div id="year">Year: 2025</div>
+
+<div id="stats">
+    <div class="stat">Economy: <span id="eco">60</span></div>
+    <div class="stat">Public: <span id="pub">60</span></div>
+    <div class="stat">Climate: <span id="cli">60</span></div>
+</div>
+
+<div id="eventBox">
+    <h2 id="eventTitle"></h2>
+    <button id="choiceA"></button>
+    <button id="choiceB"></button>
+</div>
+
+<div id="slotMachine">
+    <div class="reel"><div class="symbol" id="reel0">🌍</div></div>
+    <div class="reel"><div class="symbol" id="reel1">🌍</div></div>
+    <div class="reel"><div class="symbol" id="reel2">🌍</div></div>
+</div>
+
+<button id="spinButton">ROLL</button>
+
+<div id="log"></div>
+
+<button id="change3" onclick="go_to_How()">How To Play</button>
+<br>
+<button id="change" onclick="go_to_Acknowledge()">Acknowledgements</button>
+
+<script src="script.js"></script>
+</body>
+</html>
